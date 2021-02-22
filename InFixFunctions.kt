@@ -10,7 +10,8 @@ fun main() {
   val myPair = "McLaren" onto "Lucas"
   println(myPair)
 
-  val sophia = Person("Sophia")
+  val sophia = Person("yosuke
+  ")
   val claudia = Person("Claudia")
   sophia likes claudia                                       // 5
 }
