@@ -28,3 +28,20 @@ fun main() {
     println(stack)
   }
 }
+
+// String も可能
+fun main() {
+  val stack = MutableStack("a", "b", "c")
+  stack.push("d")
+  println(stack)
+
+  println("peek(): ${stack.peek()}")
+  println(stack)
+
+  for (i in 1..stack.size()) {
+    println("pop(): ${stack.pop()}")
+    println(stack)
+  }
+}
+
+// 
